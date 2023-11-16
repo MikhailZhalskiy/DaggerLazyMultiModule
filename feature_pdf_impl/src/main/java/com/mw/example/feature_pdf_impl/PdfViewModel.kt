@@ -7,7 +7,7 @@ import javax.inject.Inject
 class PdfViewModel @Inject constructor() : ViewModel() {
 
     init {
-        Log.d("DLMMC", "ListViewModel::init()")
+        Log.d("DLMMC", "PdfViewModel::init()")
     }
 
     fun openPdf(): String = "PDF Viewer"
